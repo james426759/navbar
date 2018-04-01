@@ -1,0 +1,60 @@
+.nav>li>a {
+    color: white;
+}
+.navbar-static-top {
+    background-color: #095f6e;
+    width: 100%;
+    position: fixed;
+}
+.sidebar {
+    background-color: #095f6e;
+}
+.bgcolor {
+    background-color: #095f6e;
+}
+
+/* On mouse-over */
+.nav>li>a:focus, .nav>li>a:hover { 
+    background: #254b53;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #254b53;
+}
+/* On mouse-over End */
+
+@media (min-width: 768px){
+.sidebar {
+    margin-top: 1px;
+}
+.navbar-top-links li a{
+    padding: 10px;
+    min-height: 10px;
+    left: 15px;
+}
+.navbar-div1 {
+    height: 40px;
+    background-color: #095f6e;
+}
+.navbar-div2 {
+    height: 40px;
+    background-color: #d9e4ed;
+}
+.tag {
+    margin-top: 15px;
+    margin-left: 10px;
+    color: #797a7a;
+    white-space:nowrap;
+}
+.navbar-top-links .dropdown-messages {
+    width: 153px;
+}
+.navbar-right .dropdown-menu {
+    right: -15px;
+}
+.sidebar .nav-second-level li a {
+    padding-left: 15px;
+}
+#page-wrapper {
+    padding-top: 60px;
+}
+}
